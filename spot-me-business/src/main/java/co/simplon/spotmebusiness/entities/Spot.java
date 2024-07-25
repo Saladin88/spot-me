@@ -87,9 +87,8 @@ public class Spot {
 
     @Override
     public String toString() {
-	return String.format(
-		"{id=%s, name=%s, description=%s, lat=%s, lng=%s, imageId=%s}",
-		id, name, description, lat, lng, imageId);
+	return String.format("{id=%s, name=%s, description=%s, lat=%s, lng=%s, imageId=%s}", id, name, description, lat,
+		lng, imageId);
     }
 
 }
